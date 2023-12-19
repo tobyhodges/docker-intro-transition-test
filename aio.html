@@ -69,7 +69,7 @@
     </div>
   </div>
   <hr></header><nav class="navbar navbar-expand-xl navbar-light bg-white bottom-nav incubator" aria-label="Main Navigation"><div class="container-fluid nav-container">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
       <span class="menu-title">Menu</span>
     </button>
@@ -81,7 +81,7 @@
     </div>
     <div class="search-icon-sm">
       <!-- TODO: do not show until we have search
-      <i role="img" aria-label="search button" data-feather="search"></i>
+        <i role="img" aria-label="search button" data-feather="search"></i>
       -->
     </div>
     <div class="desktop-nav">
@@ -136,7 +136,7 @@
         <!-- START: inst/pkgdown/templates/navbar.html -->
 <div id="sidebar-col" class="col-lg-4">
   <div id="sidebar" class="sidebar">
-      <nav aria-labelledby="flush-headingEleven"><button role="button" aria-label="close menu" alt="close menu" aria-expanded="true" aria-controls="sidebar" class="collapse-toggle">
+      <nav aria-labelledby="flush-headingEleven"><button role="button" aria-label="close menu" alt="close menu" aria-expanded="true" aria-controls="sidebar" class="collapse-toggle" data-collapse="Collapse " data-episodes="Episodes ">
           <i class="search-icon" data-feather="x" role="img"></i>
         </button>
         <div class="sidebar-inner">
@@ -179,15 +179,14 @@
               <div id="flush-collapseEleven" class="accordion-collapse show collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlush11">
 
                 <div class="accordion-body">
-                  <div class="accordion accordion-flush" id="accordionFlush1">
+                  <?xml version="1.0" encoding="UTF-8"?><div class="accordion accordion-flush" id="accordionFlush1">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading1">
-        <a href="index.html">Summary and Setup</a>
+      <a href="index.html">Summary and Setup</a>
     </div>
-<!--/div.accordion-header-->
-        
+    <!--/div.accordion-header-->
   </div>
-<!--/div.accordion-item-->
+  <!--/div.accordion-item-->
 </div>
 <!--/div.accordion-flush-->
 
@@ -356,11 +355,11 @@
         
 <section id="aio-introduction"><p>Content from <a href="introduction.html">Introducing Containers</a></p>
 <hr>
-<p> Last updated on 2023-10-25 | 
+<p>Last updated on 2023-10-25 |
         
         <a href="https://github.com/fishtree-attempt/docker-introduction/edit/main/episodes/introduction.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
@@ -631,7 +630,7 @@ workflow.</li>
 <i class="callout-icon" data-feather="key"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Keypoints<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
+<h3 class="callout-title">Key Points<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
 </h3>
 <div class="callout-content">
 <ul>
@@ -658,11 +657,11 @@ the resources they use.</li>
 </div>
 </section></section><section id="aio-meet-docker"><p>Content from <a href="meet-docker.html">Introducing the Docker Command Line</a></p>
 <hr>
-<p> Last updated on 2023-10-25 | 
+<p>Last updated on 2023-10-25 |
         
         <a href="https://github.com/fishtree-attempt/docker-introduction/edit/main/episodes/meet-docker.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
@@ -1004,11 +1003,9 @@ prompt.</p>
 <div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">
-  Show me the solution
-  </h4>
+  <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Suppose we pick the <code>docker image build</code> command:</p>
 <div class="codewrapper sourceCode" id="cb11">
@@ -1080,7 +1077,7 @@ relevant URL that supports a Docker image.</p>
 <i class="callout-icon" data-feather="key"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Keypoints<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
+<h3 class="callout-title">Key Points<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
 </h3>
 <div class="callout-content">
 <ul>
@@ -1095,11 +1092,11 @@ command followed by the <code>--help</code> flag.</li>
 </div>
 </section></section><section id="aio-running-containers"><p>Content from <a href="running-containers.html">Exploring and Running Containers</a></p>
 <hr>
-<p> Last updated on 2023-10-25 | 
+<p>Last updated on 2023-10-25 |
         
         <a href="https://github.com/fishtree-attempt/docker-introduction/edit/main/episodes/running-containers.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
@@ -1213,9 +1210,7 @@ computer? Give it a try before checking the solution.</p>
 <div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">
-  Show me the solution
-  </h4>
+  <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
 <div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
@@ -1305,7 +1300,7 @@ default – namely to print this message.</p>
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="using-docker-container-run-to-get-the-image" class="callout-inner">
-<h3 class="callout-title">Using <code>docker container run</code> to get
+<h3 class="callout-title">Using<code>docker container run</code>to get
 the image<a class="anchor" aria-label="anchor" href="#using-docker-container-run-to-get-the-image"></a>
 </h3>
 <div class="callout-content">
@@ -1376,9 +1371,7 @@ print a “hello world” message?</p>
 <div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2">
-  Show me the solution
-  </h4>
+  <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
 <div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
@@ -1473,9 +1466,7 @@ you more information.)</p>
 <div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
-  <h4 class="accordion-header" id="headingSolution3">
-  Solution 1 – Interactive
-  </h4>
+  <h4 class="accordion-header" id="headingSolution3">Solution 1 – Interactive</h4>
 </button>
 <div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
@@ -1513,9 +1504,7 @@ command:</p>
 <div id="accordionSolution4" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
-  <h4 class="accordion-header" id="headingSolution4">
-  Solution 2 – Run commands
-  </h4>
+  <h4 class="accordion-header" id="headingSolution4">Solution 2 – Run commands</h4>
 </button>
 <div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
@@ -1582,7 +1571,7 @@ the different kinds of Docker container images that are out there.</p>
 <i class="callout-icon" data-feather="key"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Keypoints<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
+<h3 class="callout-title">Key Points<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
 </h3>
 <div class="callout-content">
 <ul>
@@ -1601,11 +1590,11 @@ action, or a shell to be used interactively.</li>
 </div>
 </section></section><section id="aio-managing-containers"><p>Content from <a href="managing-containers.html">Cleaning Up Containers</a></p>
 <hr>
-<p> Last updated on 2023-10-25 | 
+<p>Last updated on 2023-10-25 |
         
         <a href="https://github.com/fishtree-attempt/docker-introduction/edit/main/episodes/managing-containers.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
@@ -1828,7 +1817,7 @@ image.</p>
 <i class="callout-icon" data-feather="key"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Keypoints<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
+<h3 class="callout-title">Key Points<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
 </h3>
 <div class="callout-content">
 <ul>
@@ -1847,11 +1836,11 @@ provide information on currently running containers.</li>
 </div>
 </section></section><section id="aio-docker-hub"><p>Content from <a href="docker-hub.html">Finding Containers on Docker Hub</a></p>
 <hr>
-<p> Last updated on 2023-10-25 | 
+<p>Last updated on 2023-10-25 |
         
         <a href="https://github.com/fishtree-attempt/docker-introduction/edit/main/episodes/docker-hub.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
@@ -2013,11 +2002,9 @@ command is sufficient.</p>
 <div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">
-  Show me the solution
-  </h4>
+  <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>First, search for <code>rocker</code> in Docker Hub. Then look for
 their <code>tidyverse</code> container image. You can look at the list
@@ -2088,7 +2075,7 @@ episode to download the container image and explore it.</p>
 <i class="callout-icon" data-feather="key"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Keypoints<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
+<h3 class="callout-title">Key Points<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
 </h3>
 <div class="callout-content">
 <ul>
@@ -2110,11 +2097,11 @@ by tags.</li>
 </div>
 </section></section><section id="aio-creating-container-images"><p>Content from <a href="creating-container-images.html">Creating Your Own Container Images</a></p>
 <hr>
-<p> Last updated on 2023-10-25 | 
+<p>Last updated on 2023-10-25 |
         
         <a href="https://github.com/fishtree-attempt/docker-introduction/edit/main/episodes/creating-container-images.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
@@ -2220,9 +2207,7 @@ work?</p>
 <div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">
-  Show me the solution
-  </h4>
+  <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
 <div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
@@ -2298,7 +2283,7 @@ by commas. For example,
 </div>
 <div id="shell-form-and-exec-form-for-cmd" class="callout-inner">
 <h3 class="callout-title">
-<em>shell-form</em> and <em>exec-form</em> for
+<em>shell-form</em>and<em>exec-form</em>for
 CMD<a class="anchor" aria-label="anchor" href="#shell-form-and-exec-form-for-cmd"></a>
 </h3>
 <div class="callout-content">
@@ -2329,9 +2314,7 @@ Dockerfile to replicate the installation we did above?</p>
 <div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2">
-  Solution:
-  </h4>
+  <h4 class="accordion-header" id="headingSolution2">Solution:</h4>
 </button>
 <div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
@@ -2433,9 +2416,7 @@ world”?</p></li>
 <div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
-  <h4 class="accordion-header" id="headingSolution3">
-  Show me the solution
-  </h4>
+  <h4 class="accordion-header" id="headingSolution3">Show me the solution</h4>
 </button>
 <div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
@@ -2593,7 +2574,7 @@ it in her <code>alice</code> Docker Hub account with the name
 <i class="callout-icon" data-feather="key"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Keypoints<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
+<h3 class="callout-title">Key Points<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
 </h3>
 <div class="callout-content">
 <ul>
@@ -2611,11 +2592,11 @@ images.</li>
 </div>
 </section></section><section id="aio-advanced-containers"><p>Content from <a href="advanced-containers.html">Creating More Complex Container Images</a></p>
 <hr>
-<p> Last updated on 2023-10-25 | 
+<p>Last updated on 2023-10-25 |
         
         <a href="https://github.com/fishtree-attempt/docker-introduction/edit/main/episodes/advanced-containers.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
@@ -2816,11 +2797,9 @@ above and put numbers after the script name?</p>
 <div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">
-  Show me the solution
-  </h4>
+  <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>This script comes from <a href="https://wiki.python.org/moin/SimplePrograms" class="external-link">the Python Wiki</a>
 and is set to add all numbers that are passed to it as arguments.</p>
@@ -2845,11 +2824,9 @@ you characterize the key components of a Docker command?</p>
 <div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2">
-  Show me the solution
-  </h4>
+  <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>Here’s a breakdown of each piece of the command above</p>
 <ul>
@@ -2891,11 +2868,9 @@ computer? What’s inside?</p>
 <div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
-  <h4 class="accordion-header" id="headingSolution3">
-  Show me the solution
-  </h4>
+  <h4 class="accordion-header" id="headingSolution3">Show me the solution</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p>The docker command to run the container interactively is:</p>
 <div class="codewrapper sourceCode" id="cb8">
@@ -2997,11 +2972,9 @@ this one. Once inside, try running the Python script.</p>
 <div id="accordionSolution4" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
-  <h4 class="accordion-header" id="headingSolution4">
-  Show me the solution
-  </h4>
+  <h4 class="accordion-header" id="headingSolution4">Show me the solution</h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <p>You can start the container interactively like so:</p>
 <div class="codewrapper sourceCode" id="cb14">
@@ -3216,7 +3189,7 @@ data science. PLOS Computational Biology 16(11): e1008316. <a href="https://doi.
 <i class="callout-icon" data-feather="key"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Keypoints<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
+<h3 class="callout-title">Key Points<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
 </h3>
 <div class="callout-content">
 <ul>
@@ -3232,11 +3205,11 @@ container images by using the <code>COPY</code> instruction in your
 </div>
 </section></section><section id="aio-docker-image-examples"><p>Content from <a href="docker-image-examples.html">Examples of Using Container Images in Practice</a></p>
 <hr>
-<p> Last updated on 2023-10-25 | 
+<p>Last updated on 2023-10-25 |
         
         <a href="https://github.com/fishtree-attempt/docker-introduction/edit/main/episodes/docker-image-examples.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
@@ -3334,7 +3307,7 @@ the lesson.</p>
 <i class="callout-icon" data-feather="key"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Keypoints<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
+<h3 class="callout-title">Key Points<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
 </h3>
 <div class="callout-content">
 <ul>
@@ -3346,11 +3319,11 @@ images in your research project.</li>
 </div>
 </section></section><section id="aio-reproduciblity"><p>Content from <a href="reproduciblity.html">Containers in Research Workflows: Reproducibility and Granularity</a></p>
 <hr>
-<p> Last updated on 2023-10-25 | 
+<p>Last updated on 2023-10-25 |
         
         <a href="https://github.com/fishtree-attempt/docker-introduction/edit/main/episodes/reproduciblity.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
@@ -3542,11 +3515,9 @@ disadvantages for each approach in the course Etherpad.</p>
 <div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">
-  Show me the solution
-  </h4>
+  <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>This is not an exhaustive list but some of the advantages and
 disadvantages could be:</p>
@@ -3635,7 +3606,7 @@ this workshop to make that happen?</li>
 <i class="callout-icon" data-feather="key"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Keypoints<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
+<h3 class="callout-title">Key Points<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
 </h3>
 <div class="callout-content">
 <ul>
@@ -3659,13 +3630,13 @@ allows us to capture our work and enables reproducibility.</li>
 <!--/div.row-->
       		<footer class="row footer mx-md-3"><hr>
 <div class="col-md-6">
-				<p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
+        <p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
         <p>
         
         <a href="https://github.com/fishtree-attempt/docker-introduction/edit/main/README.md" class="external-link">Edit on GitHub</a>
         
 	
-        | <a href="https://github.com/fishtree-attempt/docker-introduction/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a> 
+        | <a href="https://github.com/fishtree-attempt/docker-introduction/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
         | <a href="https://github.com/fishtree-attempt/docker-introduction/" class="external-link">Source</a></p>
 				<p><a href="https://github.com/fishtree-attempt/docker-introduction/blob/main/CITATION" class="external-link">Cite</a> | <a href="mailto:docker-introduction+admins@lists.carpentries.org">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
 			</div>
@@ -3673,16 +3644,14 @@ allows us to capture our work and enables reproducibility.</li>
         
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
-        <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.15.0" class="external-link">sandpaper (0.15.0)</a>,
-        <a href="https://github.com/carpentries/pegboard/tree/0.7.3" class="external-link">pegboard (0.7.3)</a>,
-      and <a href="https://github.com/carpentries/varnish/tree/0.4.0" class="external-link">varnish (0.4.0)</a>.</p>
+        <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.1" class="external-link">sandpaper (0.16.1)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.3" class="external-link">pegboard (0.7.3)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.1" class="external-link">varnish (1.0.1)</a></p>
 			</div>
 		</footer>
 </div> <!-- / div.container -->
 	<div id="to-top">
 		<a href="#top">
-			<i class="search-icon" data-feather="arrow-up" role="img" aria-label="Back to top"></i><br><span class="d-none d-sm-none d-md-none d-lg-none d-xl-block">Back</span> To Top
+      <i class="search-icon" data-feather="arrow-up" role="img" aria-label="Back To Top"></i><br><!-- <span class="d-none d-sm-none d-md-none d-lg-none d-xl-block">Back</span> To Top --><span class="d-none d-sm-none d-md-none d-lg-none d-xl-block">Back</span> To Top
 		</a>
 	</div>
   <script type="application/ld+json">
@@ -3698,8 +3667,8 @@ allows us to capture our work and enables reproducibility.</li>
   "url": "https://preview.carpentries.org/docker-introduction/aio.html",
   "identifier": "https://preview.carpentries.org/docker-introduction/aio.html",
   "dateCreated": "2019-08-07",
-  "dateModified": "2023-12-12",
-  "datePublished": "2023-12-12"
+  "dateModified": "2023-12-19",
+  "datePublished": "2023-12-19"
 }
 
   </script><script>
