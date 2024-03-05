@@ -335,14 +335,13 @@ the page;</li>
 <code>docker-introduction-gh-pages</code>.</li>
 <li>Move the <code>docker-introduction-gh-pages</code> folder into the
 <code>build-website</code> folder you created above.</li>
-</ol><div id="there-are-many-ways-to-work-with-zip-files" class="callout callout">
+</ol><div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="there-are-many-ways-to-work-with-zip-files" class="callout-inner">
-<h3 class="callout-title">There are many ways to work with ZIP
-files<a class="anchor" aria-label="anchor" href="#there-are-many-ways-to-work-with-zip-files"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="there-are-many-ways-to-work-with-zip-files">There are many ways to work with ZIP
+files<a class="anchor" aria-label="anchor" href="#there-are-many-ways-to-work-with-zip-files"></a></h3>
 <div class="callout-content">
 <p>Note that the last two steps can be achieved using a Mac or Windows
 graphical user interface. There are also ways to effect expanding the
@@ -358,8 +357,8 @@ should see something similar to what I see:</p>
 <div class="codewrapper sourceCode" id="cb1">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> cd docker-introduction-gh-pages</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> ls</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="ex">$</span> cd docker-introduction-gh-pages</span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="ex">$</span> ls</span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -386,7 +385,7 @@ cleans away the container.</p>
 <div class="codewrapper sourceCode" id="cb3">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> docker container run <span class="at">--rm</span> <span class="at">-it</span> <span class="at">--mount</span> type=bind,source=<span class="va">${PWD}</span>,target=/srv/jekyll <span class="at">-p</span> 127.0.0.1:4000:4000 jekyll/jekyll:3 jekyll serve</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="ex">$</span> docker container run <span class="at">--rm</span> <span class="at">-it</span> <span class="at">--mount</span> type=bind,source=<span class="va">${PWD}</span>,target=/srv/jekyll <span class="at">-p</span> 127.0.0.1:4000:4000 jekyll/jekyll:3 jekyll serve</span></code></pre>
 </div>
 <p>When I ran the macOS command, the output was as follows:</p>
 <div class="codewrapper">
@@ -516,7 +515,7 @@ to reproduce a lesson about reproducible computing environments.</p>
   "identifier": "https://preview.carpentries.org/docker-introduction/instructor/e02-jekyll-lesson-example.html",
   "dateCreated": "2019-08-07",
   "dateModified": "2023-10-25",
-  "datePublished": "2024-02-27"
+  "datePublished": "2024-03-05"
 }
 
   </script><script>

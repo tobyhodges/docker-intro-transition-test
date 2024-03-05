@@ -356,13 +356,12 @@ environments using containers”, so far we have mostly covered the
 mechanics of using Docker with only passing reference to the
 reproducibility aspects. In this section, we discuss these aspects in
 more detail.</p>
-<div id="work-in-progress" class="callout callout">
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="work-in-progress" class="callout-inner">
-<h3 class="callout-title">Work in progress…<a class="anchor" aria-label="anchor" href="#work-in-progress"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="work-in-progress">Work in progress…<a class="anchor" aria-label="anchor" href="#work-in-progress"></a></h3>
 <div class="callout-content">
 <p>Note that reproducibility aspects of software and containers are an
 active area of research, discussion and development so are subject to
@@ -426,7 +425,7 @@ container image we created earlier in this lesson:</p>
 <div class="codewrapper sourceCode" id="cb1">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> image save alice/alpine-python:v1 <span class="at">-o</span> alpine-python.tar</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="ex">docker</span> image save alice/alpine-python:v1 <span class="at">-o</span> alpine-python.tar</span></code></pre>
 </div>
 <p>These tar container images can become quite large and Zenodo supports
 uploads up to 50GB so you may need to compress your archive to make it
@@ -434,7 +433,7 @@ fit on Zenodo using a tool such as gzip (or zip):</p>
 <div class="codewrapper sourceCode" id="cb2">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">gzip</span> alpine-python.tar</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="fu">gzip</span> alpine-python.tar</span></code></pre>
 </div>
 <p>Once you have your archive, you can <a href="https://zenodo.org/deposit/" class="external-link">deposit it on Zenodo</a> and this
 will:</p>
@@ -643,7 +642,7 @@ allows us to capture our work and enables reproducibility.</li>
   "identifier": "https://preview.carpentries.org/docker-introduction/instructor/reproduciblity.html",
   "dateCreated": "2019-08-07",
   "dateModified": "2023-10-25",
-  "datePublished": "2024-02-27"
+  "datePublished": "2024-03-05"
 }
 
   </script><script>

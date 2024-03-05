@@ -350,13 +350,12 @@ use.</li>
 the setup instructions for this session. Note that this might not be
 necessary if your laptop is running Linux or if the installation added
 the Docker application to your startup process.</p>
-<div id="you-may-need-to-login-to-docker-hub" class="callout callout">
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="you-may-need-to-login-to-docker-hub" class="callout-inner">
-<h3 class="callout-title">You may need to login to Docker Hub<a class="anchor" aria-label="anchor" href="#you-may-need-to-login-to-docker-hub"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="you-may-need-to-login-to-docker-hub">You may need to login to Docker Hub<a class="anchor" aria-label="anchor" href="#you-may-need-to-login-to-docker-hub"></a></h3>
 <div class="callout-content">
 <p>The Docker application will usually provide a way for you to log in
 to the Docker Hub using the application’s menu (macOS) or systray icon
@@ -367,13 +366,12 @@ later in the course but if you can login now, you should do so.</p>
 </div>
 </div>
 </div>
-<div id="determining-your-docker-hub-username" class="callout callout">
+<div id="callout2" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="determining-your-docker-hub-username" class="callout-inner">
-<h3 class="callout-title">Determining your Docker Hub username<a class="anchor" aria-label="anchor" href="#determining-your-docker-hub-username"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="determining-your-docker-hub-username">Determining your Docker Hub username<a class="anchor" aria-label="anchor" href="#determining-your-docker-hub-username"></a></h3>
 <div class="callout-content">
 <p>If you no longer recall your Docker Hub username, e.g., because you
 have been logging into the Docker Hub using your email address, you can
@@ -394,7 +392,7 @@ it does not have to precisely match the one listed below.</p>
 <div class="codewrapper sourceCode" id="cb1">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> docker <span class="at">--version</span></span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="ex">$</span> docker <span class="at">--version</span></span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -412,7 +410,7 @@ would likely be:</p>
 <div class="codewrapper sourceCode" id="cb3">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> docker container ls</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="ex">$</span> docker container ls</span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -534,7 +532,7 @@ command, we run:</p>
 <div class="codewrapper sourceCode" id="cb7">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> container <span class="at">--help</span>  <span class="co"># or instead 'docker container'</span></span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a><span class="ex">docker</span> container <span class="at">--help</span>  <span class="co"># or instead 'docker container'</span></span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -577,7 +575,7 @@ Run 'docker container COMMAND --help' for more information on a command.</code><
 <div class="codewrapper sourceCode" id="cb9">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> container ls <span class="at">--help</span>  <span class="co"># this one actually requires the '--help' flag</span></span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" tabindex="-1"></a><span class="ex">docker</span> container ls <span class="at">--help</span>  <span class="co"># this one actually requires the '--help' flag</span></span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -606,14 +604,13 @@ from the command line. Although we can always search the web, getting
 the built-in help from our tool is often much faster and may provide the
 answer right away. This applies not only to Docker, but also to most
 command line-based tools.</p>
-<div id="docker-command-line-interface-cli-syntax" class="callout callout">
+<div id="callout3" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="docker-command-line-interface-cli-syntax" class="callout-inner">
-<h3 class="callout-title">Docker Command Line Interface (CLI)
-syntax<a class="anchor" aria-label="anchor" href="#docker-command-line-interface-cli-syntax"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="docker-command-line-interface-cli-syntax">Docker Command Line Interface (CLI)
+syntax<a class="anchor" aria-label="anchor" href="#docker-command-line-interface-cli-syntax"></a></h3>
 <div class="callout-content">
 <p>In this lesson we use the newest Docker CLI syntax <a href="https://www.docker.com/blog/whats-new-in-docker-1-13/" class="external-link">introduced
 with the Docker Engine version 1.13</a>. This new syntax combines
@@ -653,13 +650,13 @@ prompt.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Suppose we pick the <code>docker image build</code> command:</p>
 <div class="codewrapper sourceCode" id="cb11">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> image build <span class="at">--help</span></span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a><span class="ex">docker</span> image build <span class="at">--help</span></span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -702,13 +699,13 @@ Options:
 <div class="codewrapper sourceCode" id="cb13">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> image build .</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a><span class="ex">docker</span> image build .</span></code></pre>
 </div>
 <p>or</p>
 <div class="codewrapper sourceCode" id="cb14">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> image build https://github.com/docker/rootfs.git</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" tabindex="-1"></a><span class="ex">docker</span> image build https://github.com/docker/rootfs.git</span></code></pre>
 </div>
 <p>Where <code>https://github.com/docker/rootfs.git</code> could be any
 relevant URL that supports a Docker image.</p>
@@ -795,7 +792,7 @@ command followed by the <code>--help</code> flag.</li>
   "identifier": "https://preview.carpentries.org/docker-introduction/meet-docker.html",
   "dateCreated": "2019-08-07",
   "dateModified": "2023-10-25",
-  "datePublished": "2024-02-27"
+  "datePublished": "2024-03-05"
 }
 
   </script><script>

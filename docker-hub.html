@@ -360,14 +360,13 @@ Also, many commonly used pieces of software that have been containerized
 into images are officially endorsed, which means that you can trust the
 container images to have been checked for functionality, stability, and
 that they don’t contain malware.</p>
-<div id="docker-can-be-used-without-connecting-to-the-docker-hub" class="callout callout">
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="docker-can-be-used-without-connecting-to-the-docker-hub" class="callout-inner">
-<h3 class="callout-title">Docker can be used without connecting to the
-Docker Hub<a class="anchor" aria-label="anchor" href="#docker-can-be-used-without-connecting-to-the-docker-hub"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="docker-can-be-used-without-connecting-to-the-docker-hub">Docker can be used without connecting to the
+Docker Hub<a class="anchor" aria-label="anchor" href="#docker-can-be-used-without-connecting-to-the-docker-hub"></a></h3>
 <div class="callout-content">
 <p>Note that while the Docker Hub is well integrated into Docker
 functionality, the Docker Hub is certainly not required for all types of
@@ -412,14 +411,14 @@ with Python 3.8, I would use this name:</p>
 <div class="codewrapper sourceCode" id="cb2">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> docker image pull python:3.8</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="ex">$</span> docker image pull python:3.8</span></code></pre>
 </div>
 <p>But if I wanted to download a Python 3.6 container image, I would use
 this name:</p>
 <div class="codewrapper sourceCode" id="cb3">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> docker image pull python:3.6</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="ex">$</span> docker image pull python:3.6</span></code></pre>
 </div>
 <p>The default tag (which is used if you don’t specify one) is called
 <code>latest</code>.</p>
@@ -435,13 +434,12 @@ builds community R container images.</p>
 <p>The name for these group- or individually-managed container images
 have this format:</p>
 <pre><code><span><span class="va">OWNER</span><span class="op">/</span><span class="va">CONTAINER_IMAGE_NAME</span><span class="op">:</span><span class="va">TAG</span></span></code></pre>
-<div id="repositories" class="callout callout">
+<div id="callout2" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="repositories" class="callout-inner">
-<h3 class="callout-title">Repositories<a class="anchor" aria-label="anchor" href="#repositories"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="repositories">Repositories<a class="anchor" aria-label="anchor" href="#repositories"></a></h3>
 <div class="callout-content">
 <p>The technical name for the contents of a Docker Hub page is a
 “repository.” The tag indicates the specific version of the container
@@ -474,7 +472,7 @@ command is sufficient.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>First, search for <code>rocker</code> in Docker Hub. Then look for
 their <code>tidyverse</code> container image. You can look at the list
@@ -484,7 +482,7 @@ is:</p>
 <div class="codewrapper sourceCode" id="cb6">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> docker image pull rocker/tidyverse:3.6.1</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a><span class="ex">$</span> docker image pull rocker/tidyverse:3.6.1</span></code></pre>
 </div>
 </div>
 </div>
@@ -619,7 +617,7 @@ by tags.</li>
   "identifier": "https://preview.carpentries.org/docker-introduction/docker-hub.html",
   "dateCreated": "2019-08-07",
   "dateModified": "2023-10-25",
-  "datePublished": "2024-02-27"
+  "datePublished": "2024-03-05"
 }
 
   </script><script>
